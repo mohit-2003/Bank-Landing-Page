@@ -12,7 +12,9 @@ const Navbar = () => {
             key={index}
             className="font-poppins text-white font-normal cursor-pointer text-[16px] ml-10"
           >
-            <a href={`#${nav.id}`}>{nav.title}</a>
+            <a href={`#${nav.id}`} className="hover:opacity-75">
+              {nav.title}
+            </a>
           </li>
         ))}
       </ul>
