@@ -29,16 +29,20 @@ const Billing = () => {
           quo vitae quos repudiandae et? Sint magnam at nostrum similique!
         </p>
         <div className="flex flex-row flex-wrap sm:mt-10 mt-6">
-          <img
-            src={google}
-            alt="play_store"
-            className="w-[128px] h-[42px] object-contain cursor-pointer mr-5"
-          />
-          <img
-            src={apple}
-            alt="apple_store"
-            className="w-[128px] h-[42px] object-contain cursor-pointer"
-          />
+          <a href="https://play.google.com/store/apps">
+            <img
+              src={google}
+              alt="play_store"
+              className="w-[128px] h-[42px] object-contain cursor-pointer mr-5"
+            />
+          </a>
+          <a href="https://www.apple.com/in/app-store/">
+            <img
+              src={apple}
+              alt="apple_store"
+              className="w-[128px] h-[42px] object-contain cursor-pointer"
+            />
+          </a>
         </div>
       </div>
     </section>
